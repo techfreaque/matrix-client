@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# botSphere.app
 
-## Getting Started
 
-First, run the development server:
+## Milestone 1:
+### Chat App
+using matrix for
+- basic messaging and group chats, 
+- login / auth
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Bot templates
+- add option to select ai models apis - start with chatGPT
+- allow to define the message that the model initially gets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Bot API
+- build server for bot sending and reading messages from/to ai model api
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Milestone 2:
 
-## Learn More
+bot starter templates store for personas e.g.: 
+- assistant for a mentor role,
+- plan an event with friend's
+- we and bot template maintainer get a kickback from hosting provider
 
-To learn more about Next.js, take a look at the following resources:
+share sessions with a link / create a new chat with one or more bots/humans
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+text to speech and speech to text - accessible 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+text to video avatar
 
-## Deploy on Vercel
+option to disable ai listening / speech to text
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+screenshare / snipping tool
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+self host option / GPL
+
+
+
+## Todos
+
+unified API libraries needed:
+language models standard api library 
+text to speec
+
+ai model hosting provider api
+
